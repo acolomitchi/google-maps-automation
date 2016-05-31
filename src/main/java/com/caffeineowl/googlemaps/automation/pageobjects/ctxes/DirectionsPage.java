@@ -37,7 +37,7 @@ extends PageContext {
   static private By byFootBtnLocator=By.xpath("//div[contains(@class,'travel-mode') and @data-travel_mode='2']/button");
   static private By srcInputLocator=By.xpath("//div[@id='directions-searchbox-0']//input[@class='tactile-searchbox-input']");
   static private By destInputLocator=By.xpath("//div[@id='directions-searchbox-1']//input[@class='tactile-searchbox-input']");
-  static private By closeDirectionsLocator=By.xpath("//div[@class='widget-directions-travel-mode-switcher-container']//div[@class='widget-directions-close']");
+  static private By closeDirectionsLocator=By.xpath("//div[@class='widget-directions-travel-mode-switcher-container']//button[@class='widget-directions-close']");
 
   static private By routesSimpleDetailsListLocator=By.xpath("//div[@class='widget-pane-section-directions-trip-description']/div[@style!='display:none']");
   static private By routeViaLocator=By.xpath(".//h1[@class='widget-pane-section-directions-trip-title']//span");
